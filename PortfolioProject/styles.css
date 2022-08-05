@@ -1,0 +1,117 @@
+:root{
+    --link-inactive: hotpink;
+    --link-hover:gold;
+    --link-active: aqua;
+}
+
+* {
+    font-family:sans-serif;
+}
+body {
+    background: linear-gradient(
+        45deg,
+        violet,
+        darkslateblue
+    );
+    color:ghostwhite;
+}
+
+#navbar {
+    position: fixed;
+    top:22px;
+    background:linear-gradient(
+        45deg,
+        violet,
+        aqua
+    );
+    border-radius:16px
+}
+
+#navbar ul {
+    display:flex;
+}
+
+#navbar ul li {
+    margin-right: 20px;
+}
+
+.nav-link{
+    text-decoration:none;
+    font-style:bold;
+    font-size:24px;
+}
+
+#welcome-section{
+    background: linear-gradient(
+        45deg,
+        aqua,
+        violet
+    );
+    color:hotpink;
+    font-style:bold;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 25px;
+}
+
+#projects{
+    display: grid;
+}
+
+.project-tile{
+    margin:40px 20px;
+    text-align: center;
+    background: linear-gradient(
+        45deg,
+        aqua,
+        violet
+    );
+    border-radius: 50px;
+}
+
+iframe{
+    width:560;
+    height:315;
+}
+
+.youtube-video{
+    color: var(--link-inactive);
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.youtube-video:hover{
+    color: var(--link-hover);
+    font-style:bold;
+}
+
+.youtube-video:active{
+    color: var(--link-active);
+}
+
+footer{
+    background: linear-gradient(
+        45deg,
+        aqua,
+        violet
+    );
+    border-radius: 50px;
+}
+
+#profile-link{
+    width:60px;
+    margin: 0px 50vw;
+    text-decoration:none;
+    font-size:32px;
+    display:grid;
+    text-align:center;
+    color:darkslateblue;
+    font-style:bold;
+}
+
+@media(max-width:768px) {
+    body {
+        background-color: blue;
+    }
+}

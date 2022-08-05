@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+  font-family: 'Bebas Neue';
+  line-height: 1.4;
+  background-color: #91a4b6;
+  width: 500px;
+  margin: auto;
+}
+
+form{
+  background: #969696;
+  padding: 2.5rem 2.5rem;
+  border-radius: 2rem;
+  width: 500px;
+  margin: auto;
+}
+
+.submit-button{
+  width: 100%;
+  padding: 0.75rem;
+  background:#91a4b6;
+  color:white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.input-heading{
+  margin: 0 auto 1.25 auto;
+  padding: 0.25rem;
+}
+
+.form-inputs{
+  display: block;
+  width: 90%;
+  height: 2rem;
+  padding: 0.25rem 0.75rem;
+  background-color: #fff;
+  border: 1px solid #91a4b6;
+  border-radius: 0.25rem;
+}
+
+
+
+** end of undefined **
+

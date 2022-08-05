@@ -1,0 +1,48 @@
+* {
+    background: linear-gradient(
+        45deg,
+        darkslateblue,
+        dimgray
+    );
+    color:blanchedalmond;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    width: 80%;
+    height: 20px;
+    padding: 25px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: slategray;
+    opacity: 0.8;
+}
+
+body{
+    display:grid;
+    padding:64px 64px;
+}
+
+.nav-link{
+    display:block;
+    font-size:24px;
+    text-decoration: none;
+    text-align:center;
+    background: linear-gradient(
+        45deg,
+        dimgray,
+        darkslateblue
+    );
+}
+
+#header-img{
+    width:20%;
+}
+
+@media (max-width:500px){
+    body{
+        flex-wrap: wrap;
+    }
+}
