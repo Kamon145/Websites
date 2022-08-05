@@ -1,0 +1,52 @@
+body{
+    background-color:#a39f9c;
+    color:white;
+    font-family:'Arial';
+    font-size:32px;
+    text-align:center;
+}
+
+h1{
+    background-color:#e4000f;
+    color:white;
+}
+
+h2{
+    font-size:28px;
+}
+
+#image{
+    max-width:100%;
+    height:auto;
+    display:block;
+    margin:auto;
+}
+
+#img-caption{
+    font-size:16px;
+    text-align:center;
+}
+
+p{
+    background-color:#e4000f;
+    color:white;
+    font-size:32px;
+    text-align:center;
+}
+
+ul {
+    background-color:#6096fe;
+    background-image:url(https://wallpaperaccess.com/full/3739446.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-position:bottom center;
+    display: inline-block;
+    color:white;
+    list-style-position: inside;
+    list-style-image: url("https://icons.iconarchive.com/icons/ph03nyx/super-mario/48/Retro-Mushroom-Super-3-icon.png");
+}
+
+footer{
+    background-color:#a39f9c;
+    font-size:16px;
+}
